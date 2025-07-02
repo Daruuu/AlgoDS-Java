@@ -10,14 +10,59 @@ public class Exercise03 {
     Ejemplo:
     Entrada: [1, 2, 3]
     Salida: [(1,2), (1,3), (2,1), (2,3), (3,1), (3,2)]
+    Salida: [
+            (1,2),
+            (1,3),
+            (2,1),
+            (2,3),
+            (3,1),
+            (3,2)
+            ]
 */
-    //  TODO: termina este problema.
-    public int[]    getAllPossibleCombinationsInTheSameArrayValues(int[] array)
+    public static int[][]   getAllPossibleCombinationsInTheSameArrayValues(int[] array)
     {
         int[][] resultArray;
+        int i;
+        int totalPairs;
+        int j;
+        int n;
+        int index;
+
         if (array == null || array.length == 0)
             return(null);
-        int lenArray = array.length;
+        n = array.length;
+        totalPairs = n * (n - 1);
+        resultArray = new int[totalPairs][2];
+
+        i = 0;
+        index = 0;
+        while (i < n)
+        {
+            j = 0;
+            while (j < n)
+            {
+                if (i != j)
+                {
+                    resultArray[index][0] = array[i];
+                    resultArray[index][1] = array[j];
+                    index++;
+                }
+                j++;
+            }
+            i++;
+        }
         return (resultArray);
     }
+    /*
+    🧠 Análisis de complejidad
+    Tiempo:
+    O(n²) — Dos bucles anidados, comparando todos contra todos.
+
+    Espacio:
+    O(n²) — Porque generas n*(n-1) pares.
+    */
+
+    // Using List<int[]>
+
+
 }

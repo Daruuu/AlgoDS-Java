@@ -1,6 +1,8 @@
 package com.daruuu;
 
 import com.daruuu.typesofcomplexity.Exercise01;
+import com.daruuu.typesofcomplexity.Exercise02;
+import com.daruuu.typesofcomplexity.Exercise03;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -9,11 +11,7 @@ public class Main {
 
         int     resultExercise01;
         int     resultExercise02;
-        int     resultExercise03;
-
-        resultExercise01 = 0;
-        resultExercise02 = 0;
-        resultExercise03 = 0;
+        int[][] resultExercise03;
 
         System.out.println("Hello and welcome to Algorithms and Structures!");
 
@@ -22,5 +20,17 @@ public class Main {
         System.out.println("Result of exercise 01: " + resultExercise01);
 
         int[]   arrayExercise02 = {1, 2, 3, 4};
+        resultExercise02 = Exercise02.getTheSumOfAllItemsInArray(arrayExercise02);
+        System.out.println("Result of exercise 02: " + resultExercise02);
+
+        int[]   arrayExercise03 = {1, 2, 3};
+        resultExercise03 = Exercise03.getAllPossibleCombinationsInTheSameArrayValues(arrayExercise03);
+        int i = 0;
+
+        while (i < resultExercise03.length)
+        {
+            System.out.println("(" + resultExercise03[i][0] + ", " + resultExercise03[i][1] + ")");
+            i++;
+        }
     }
 }

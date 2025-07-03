@@ -22,9 +22,9 @@ public class Exercise03 {
     public static int[][]   getAllPossibleCombinationsInTheSameArrayValues(int[] array)
     {
         int[][] resultArray;
-        int i;
-        int totalPairs;
-        int j;
+        int     i;
+        int     totalPairs;
+        int     j;
         int n;
         int index;
 

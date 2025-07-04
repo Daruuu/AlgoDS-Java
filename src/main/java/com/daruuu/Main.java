@@ -1,14 +1,19 @@
 package com.daruuu;
 
+import com.daruuu.HackerRank.minimaxsum04.MiniMaxSum;
 import com.daruuu.typesofcomplexity.Exercise01;
 import com.daruuu.typesofcomplexity.Exercise02;
 import com.daruuu.typesofcomplexity.Exercise03;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
+/*
         int     resultExercise01;
         int     resultExercise02;
         int[][] resultExercise03;
@@ -32,5 +37,14 @@ public class Main {
             System.out.println("(" + resultExercise03[i][0] + ", " + resultExercise03[i][1] + ")");
             i++;
         }
+*/
+        List<Integer> array = new ArrayList<>();
+        array.add(1);
+        array.add(2);
+        array.add(3);
+        array.add(4);
+        array.add(5);
+
+        MiniMaxSum.minimaxSum(array);
     }
 }

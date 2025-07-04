@@ -1,4 +1,4 @@
-package com.daruuu.HackerRank.minimaxsum04;
+package com.daruuu.HackerRank.Algorithms.minimaxsum04;
 
 import java.util.List;
 

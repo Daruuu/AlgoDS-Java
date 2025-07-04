@@ -1,4 +1,4 @@
-package com.daruuu.HackerRank.diagonaldifference03;
+package com.daruuu.HackerRank.Algorithms.diagonaldifference03;
 
 import java.util.List;
 

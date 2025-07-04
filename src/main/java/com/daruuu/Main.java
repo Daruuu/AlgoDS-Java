@@ -1,9 +1,6 @@
 package com.daruuu;
 
-import com.daruuu.HackerRank.minimaxsum04.MiniMaxSum;
-import com.daruuu.typesofcomplexity.Exercise01;
-import com.daruuu.typesofcomplexity.Exercise02;
-import com.daruuu.typesofcomplexity.Exercise03;
+import com.daruuu.HackerRank.Algorithms.minimaxsum04.MiniMaxSum;
 
 import java.util.ArrayList;
 import java.util.List;

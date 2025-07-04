@@ -1,5 +1,6 @@
 package com.daruuu.HackerRank.minimaxsum04;
 
+import com.daruuu.HackerRank.Algorithms.minimaxsum04.MiniMaxSum;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -39,4 +40,5 @@ class MiniMaxSumTest {
             System.setOut(originalOutConsole);
         }
     }
+
 }

@@ -1,4 +1,4 @@
-package com.daruuu.HackerRank.averybigsum02;
+package com.daruuu.HackerRank.Algorithms.averybigsum02;
 
 import java.util.List;
 

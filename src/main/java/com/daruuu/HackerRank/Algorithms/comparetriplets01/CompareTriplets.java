@@ -1,4 +1,4 @@
-package com.daruuu.HackerRank.comparetriplets01;
+package com.daruuu.HackerRank.Algorithms.comparetriplets01;
 
 import java.util.ArrayList;
 import java.util.List;

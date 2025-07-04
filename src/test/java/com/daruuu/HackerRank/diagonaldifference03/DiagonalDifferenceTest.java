@@ -1,5 +1,6 @@
 package com.daruuu.HackerRank.diagonaldifference03;
 
+import com.daruuu.HackerRank.Algorithms.diagonaldifference03.DiagonalDifference;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

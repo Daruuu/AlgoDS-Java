@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BinarySearch02Test {
 
     @Test
-    void findTargetInSortedArrayUsingBinarySearch() {
+    void shoudlReturnTrue_whenTargetExists() {
 
         //  given
         List<Integer> arrayList = new ArrayList<>();
@@ -20,10 +20,11 @@ class BinarySearch02Test {
         arrayList.add(7);
         arrayList.add(9);
         arrayList.add(11);
+
         int target = 7;
 
         //  when
-        Boolean resultBoolean = BinarySearch02.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
+        boolean resultBoolean = BinarySearch02.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
 
         //  then
         assertTrue(resultBoolean, "Is correct.");

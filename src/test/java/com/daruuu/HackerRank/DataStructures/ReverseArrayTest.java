@@ -1,4 +1,4 @@
-package com.daruuu.HackerRank.DataStructures.ArraysDS01;
+package com.daruuu.HackerRank.DataStructures;
 
 import org.junit.jupiter.api.Test;
 

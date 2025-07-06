@@ -1,6 +1,7 @@
 package com.daruuu;
 
 import com.daruuu.HackerRank.Algorithms.minimaxsum04.MiniMaxSum;
+import com.daruuu.sortAndSearchAlgorithms.BinarySearch02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,13 +36,18 @@ public class Main {
             i++;
         }
 */
-        List<Integer> array = new ArrayList<>();
-        array.add(1);
-        array.add(2);
-        array.add(3);
-        array.add(4);
-        array.add(5);
+/*
+        List<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(3);
+        arrayList.add(5);
+        arrayList.add(7);
+        arrayList.add(9);
+        arrayList.add(11);
+        int target = 7;
 
-        MiniMaxSum.minimaxSum(array);
+        BinarySearch02.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
+*/
+
     }
 }

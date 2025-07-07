@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class InsertionSortTest {
+class InsertionSort04Test {
 
     @Test
     void    shouldReturnSortedArray_whenArrayExists() {
@@ -13,7 +13,7 @@ class InsertionSortTest {
         int []  expectedOutput = {1, 2, 4, 8, 9};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -26,7 +26,7 @@ class InsertionSortTest {
         int []  expectedOutput = null;//{1, 2, 4, 8, 9};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -39,7 +39,7 @@ class InsertionSortTest {
         int []  expectedOutput = {1, 2, 4, 4, 8, 9};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -52,7 +52,7 @@ class InsertionSortTest {
         int []  expectedOutput = {8};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -65,7 +65,7 @@ class InsertionSortTest {
         int []  expectedOutput = null;
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -78,7 +78,7 @@ class InsertionSortTest {
         int []  expectedOutput = {0, 1, 2, 3, 4, 5, 7};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -91,7 +91,7 @@ class InsertionSortTest {
         int []  expectedOutput = {-110, -5, -2, 4, 7, 30};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -104,7 +104,7 @@ class InsertionSortTest {
         int []  expectedOutput = {5, 5, 5, 5, 5, 5};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -117,7 +117,7 @@ class InsertionSortTest {
         int []  expectedOutput = {-100, 1, 2, 3, 4, 5};
 
         //  when
-        int []  result = InsertionSort.sortArrayUsingInsertionSort(inputArray);
+        int []  result = InsertionSort04.sortArrayUsingInsertionSort(inputArray);
 
         //  then
         assertArrayEquals(expectedOutput, result);

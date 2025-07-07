@@ -1,8 +1,6 @@
 package com.daruuu.sortAndSearchAlgorithms;
 
-import java.util.List;
-
-public class InsertionSort {
+public class InsertionSort04 {
     /*
     ## 📘 Problem #5 — Insertion Sort
 

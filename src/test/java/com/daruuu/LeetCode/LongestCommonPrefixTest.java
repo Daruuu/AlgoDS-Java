@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LongestCommonPrefixTest {
 
     @Test
-    void    shouldReturnPrefixOfTwo_whenInputValid() {
+    void    shouldReturnFl_whenStringHaveCommonPrefixFlowerFlowFlight() {
 
         String[] strs = {"flower","flow","flight"};
         String  expectedOutput = "fl";
@@ -18,12 +18,23 @@ class LongestCommonPrefixTest {
     }
 
     @Test
-    void    shouldReturnPrefixOfTwo_whenInputValid2() {
+    void    shouldReturnEmptyString_whenNoCommonPrefixExists() {
         String[]    strs = {"dog","racecar","car"};
-        String  expectedOutput = "";
+        String      expectedOutput = "";
 
         String  result = LongestCommonPrefix.longestCommonPrefix(strs);
 
         assertEquals(expectedOutput, result);
     }
+
+    @Test
+    void shouldReturnEntireString_whenAllStringsAreIdentical() {
+        String[] strs = {"java", "java", "java"};
+        String expected = "java";
+
+        String result = LongestCommonPrefix.longestCommonPrefix(strs);
+
+        assertEquals(expected, result);
+    }
+
 }

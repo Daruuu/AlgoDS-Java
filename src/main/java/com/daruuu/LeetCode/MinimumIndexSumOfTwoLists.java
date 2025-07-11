@@ -60,7 +60,7 @@ public class MinimumIndexSumOfTwoLists {
             return (null);
 
         List<String>    result = new ArrayList<>();
-        int minIndexSum = Integer.MIN_VALUE;
+        int minIndexSum = Integer.MAX_VALUE;
         int i;
         int j;
 

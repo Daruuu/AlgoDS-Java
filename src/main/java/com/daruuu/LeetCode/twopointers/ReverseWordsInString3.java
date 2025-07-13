@@ -1,6 +1,4 @@
-package com.daruuu.LeetCode;
-
-import java.util.Arrays;
+package com.daruuu.LeetCode.twopointers;
 
 public class ReverseWordsInString3 {
     /*

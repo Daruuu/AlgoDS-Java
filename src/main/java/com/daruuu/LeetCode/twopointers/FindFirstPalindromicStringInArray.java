@@ -1,6 +1,4 @@
-package com.daruuu.LeetCode;
-
-import javax.swing.*;
+package com.daruuu.LeetCode.twopointers;
 
 public class FindFirstPalindromicStringInArray {
     /*

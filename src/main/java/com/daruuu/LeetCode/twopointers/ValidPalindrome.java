@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode;
+package com.daruuu.LeetCode.twopointers;
 
 public class ValidPalindrome {
     /*

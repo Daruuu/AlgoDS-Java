@@ -28,9 +28,8 @@ public class FibonacciNumber {
         0 <= n <= 30
     */
     public static   int fib(int n){
-        if (n < 2) {
+        if (n < 2)
             return (n);
-        }
         return (fib(n - 1) + fib(n - 2));
     }
 

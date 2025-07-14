@@ -33,9 +33,25 @@ public class FibonacciNumber {
         return (fib(n - 1) + fib(n - 2));
     }
 
+    public static   int fibIterative(int n){
+        if (n < 2)
+            return (n);
+        int a = 0;
+        int b = 1;
+        for (int i = 2; i <= n; i++) {
+            int tmp = a + b;
+            a = b;
+            b = tmp;
+        }
+        return (b);
+    }
+
     //  input 6
+    //  output = 8
     //  result = (n - 1) + (n - 2)
     public static   long fibonacci(int n){
+        if (n <= 1)
+            return (n);
         return (fibonacci(n - 1) + fibonacci(n - 2) );
     }
 }

@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode;
+package com.daruuu.LeetCode.array;
 
 public class LenghtOfLastWord {
     /*

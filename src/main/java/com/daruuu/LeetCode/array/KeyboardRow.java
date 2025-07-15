@@ -1,6 +1,4 @@
-package com.daruuu.LeetCode;
-
-import java.util.Objects;
+package com.daruuu.LeetCode.array;
 
 public class KeyboardRow {
     /*

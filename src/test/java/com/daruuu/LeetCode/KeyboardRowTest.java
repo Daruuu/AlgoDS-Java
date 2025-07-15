@@ -1,5 +1,6 @@
 package com.daruuu.LeetCode;
 
+import com.daruuu.LeetCode.array.KeyboardRow;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,7 +1,6 @@
-package com.daruuu.LeetCode;
+package com.daruuu.LeetCode.array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MinimumIndexSumOfTwoLists {

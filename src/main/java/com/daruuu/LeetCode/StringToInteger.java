@@ -86,24 +86,31 @@ public class StringToInteger {
      */
     public static int   myAtoi(String s)
     {
-        int result = 0;
+        long    result = 0;
         int sign = 1;
         int i;
+        int n = s.length();
 
         i = 0;
-        while (s.charAt(i) == ' ' || s.charAt(i) >= 9 && s.charAt(i) <= 13)
+        while (i < n && s.charAt(i) == ' ')
             i++;
-        if (s.charAt(i) == '+' || s.charAt(i) == '-')
+        if (i < n && (s.charAt(i) == '+' || s.charAt(i) == '-'))
         {
             if (s.charAt(i) == '-')
                 sign = -1;
             i++;
         }
+        int digit;
         while (i < s.length() && s.charAt(i) >= '0' && s.charAt(i) <= '9')
         {
-            result = (result * 10) + s.charAt(i) - '0';
+            digit = s.charAt(i) - '0';
+            result = (result * 10) + digit;
+            if ((sign * result) > Integer.MAX_VALUE)
+                return (Integer.MAX_VALUE);
+            if ((sign * result) < Integer.MIN_VALUE)
+                return (Integer.MIN_VALUE);
             i++;
         }
-        return (result * sign);
+        return ((int)result * sign);
     }
 }

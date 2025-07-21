@@ -48,6 +48,18 @@ public class Main {
 
         BinarySearch02.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
 */
+    /*
+    Write a function called averagePair which, given a sorted array arr of integers and a value  targetAverage,
+    returns true if there is a pair of values a and b in the array such that average(a, b) == targetAverage and false otherwise.
+    There may be more than one pair that matches the average target.
+
+    [1, 2, 3], 2.5 -> true
+    [1, 3, 3, 5, 6, 7, 10, 12, 19], 8 -> true
+    [-1, 0, 3, 4, 5, 6], 4.1 -> false
+    [], 4 -> false
+    [0, 2, 3], 2.0 -> false
+    [0, 2, 4], 2.0 -> true
+     */
 
     }
 }

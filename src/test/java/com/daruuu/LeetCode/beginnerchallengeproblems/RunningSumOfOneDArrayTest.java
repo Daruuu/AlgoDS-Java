@@ -6,9 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RunningSumOfOneDArrayTest {
 
-//        Input: nums = [1,2,3,4]
-//        Output: [1,3,6,10]
-//        Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
     @Test
     void    shouldReturnNewArrayWithSumOfEachPositionBeforeIndex_whenArrayExists() {
         //  given
@@ -34,4 +31,34 @@ class RunningSumOfOneDArrayTest {
         //  then
         assertArrayEquals(expectedOutput, result);
     }
+
+    @Test
+    void shouldReturnSameArray_whenArrayHasOneElement() {
+        int[] numsInput = {5};
+        int[] expectedOutput = {5};
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray.runningSum(numsInput));
+    }
+
+    @Test
+    void shouldReturnZeros_whenAllElementsAreZero() {
+        int[] numsInput = {0, 0, 0, 0};
+        int[] expectedOutput = {0, 0, 0, 0};
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray.runningSum(numsInput));
+    }
+
+    @Test
+    void shouldReturnCorrectRunningSum_whenArrayContainsNegativeNumbers() {
+        int[] numsInput = {-1, 2, -3, 4};
+        int[] expectedOutput = {-1, 1, -2, 2};
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray.runningSum(numsInput));
+    }
+
+    @Test
+    void shouldReturnEmptyArray_whenInputIsEmpty() {
+        int[] numsInput = {};
+        int[] expectedOutput = {};
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray.runningSum(numsInput));
+    }
+
+
 }

@@ -36,7 +36,7 @@ public class RunningSumOfOneDArray {
     public static int []    runningSum(int [] nums)
     {
         if (nums == null || nums.length == 0)
-            return (new int[] {});
+            return (new int[0]);
 
         int []  result = new int[nums.length];
         result[0] = nums[0];
@@ -46,4 +46,19 @@ public class RunningSumOfOneDArray {
         }
         return (result);
     }
+
+    public static int[] runningSumV1(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return new int[0];
+
+        int[] result = new int[nums.length];
+        int sum = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            result[i] = sum;
+        }
+        return result;
+    }
+
 }

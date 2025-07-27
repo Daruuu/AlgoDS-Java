@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RichestCustomerWealthTest {
+class RichestCustomerWealth02Test {
 
     @Test
     void maximumWealth() {
@@ -16,7 +16,7 @@ class RichestCustomerWealthTest {
         int expectedOutput = 6;
 
         //  when
-        int result = RichestCustomerWealth.maximumWealth(accountsInput);
+        int result = RichestCustomerWealth_02.maximumWealth(accountsInput);
 
         //  then
         assertEquals(expectedOutput ,result);
@@ -28,7 +28,7 @@ class RichestCustomerWealthTest {
                 {10, 20, 30}
         };
         int expected = 60;
-        assertEquals(expected, RichestCustomerWealth.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
     }
 
     @Test
@@ -38,7 +38,7 @@ class RichestCustomerWealthTest {
                 {1, 1}
         };
         int expected = 99;
-        assertEquals(expected, RichestCustomerWealth.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
     }
 
     @Test
@@ -48,7 +48,7 @@ class RichestCustomerWealthTest {
                 {0, 0}
         };
         int expected = 0;
-        assertEquals(expected, RichestCustomerWealth.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
     }
 
 }

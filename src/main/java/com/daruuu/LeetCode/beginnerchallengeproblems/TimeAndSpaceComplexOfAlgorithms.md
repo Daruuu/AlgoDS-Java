@@ -1,22 +1,15 @@
-✅ 1. Análisis de Complejidad de RunningSumOfOneDArray
+📌 Notas aclaratorias
+O(n) significa que el algoritmo escala linealmente con el número de elementos de entrada (n).
 
-| Tipo              | Valor                                   | Comentario                         |
-| ----------------------- | --------------------------------------- | ---------------------------------- |
-| ⏱ Complejidad Temporal  | `O(n)`                                  | Recorre el array una sola vez.     |
-| 🧠 Complejidad Espacial | `O(n)`                                  | Crea un nuevo array de tamaño `n`. |
-| 🚀 Mejora posible       | Mutar el array de entrada si se permite | y ahorrar espacio → `O(1)`         |
+O(m * n) indica una doble iteración, común en estructuras bidimensionales (e.g., matrices).
 
+Optimización espacial es posible solo si no se necesita conservar los datos originales (es decir, si puedes sobrescribir).
 
-✅ 2. Análisis de complejidad de RichestCustomerWealth
-⏱ Complejidad temporal (Time Complexity):
-O(m * n) donde:
-
-m = número de clientes <br>
-n = número de cuentas por cliente <br>
-
-⚡️ Esto es óptimo ya que necesitas revisar cada número al menos una vez.
-
-🧠 Complejidad espacial (Space Complexity):
-O(1) — solo usas variables escalares (int maxWealth, currentWealth).
-
-No usas estructuras auxiliares, ni copias.
+| #   | Problema                    | ⏱ Tiempo   | 🧠 Espacio      | Comentario / Mejora Posible                                        |
+| --- | --------------------------- | ---------- | --------------- | ------------------------------------------------------------------ |
+| ✅ 1 | **Running Sum of 1D Array** | `O(n)`     | `O(n)`          | Se recorre el array una vez y se crea uno nuevo.                   |
+|     |                             |            | **`O(1)` opt.** | Si se permite mutar el input: se puede optimizar a `O(1)` espacio. |
+| ✅ 2 | **Richest Customer Wealth** | `O(m * n)` | `O(1)`          | `m = clientes`, `n = cuentas`. Recorre toda la matriz.             |
+|     |                             |            |                 | Uso de variables escalares sin estructuras extra.                  |
+| ✅ 3 | **FizzBuzz**                | `O(n)`     | `O(n)`          | Se genera una lista de tamaño `n`.                                 |
+|     |                             |            | **`O(1)` opt.** | Si imprimieras directamente en consola, sin guardar lista.         |

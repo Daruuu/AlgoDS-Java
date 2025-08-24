@@ -1,15 +1,20 @@
 package com.daruuu;
 
-import com.daruuu.HackerRank.Algorithms.minimaxsum04.MiniMaxSum;
-import com.daruuu.sortAndSearchAlgorithms.BinarySearch02;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.daruuu.LeetCode.beginnerchallengeproblems.NumberOfStepsToReduceANumberToZero_04;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
+//        NumberOfStepsToReduceANumberToZero_04 test = new NumberOfStepsToReduceANumberToZero_04();
+
+        int result = NumberOfStepsToReduceANumberToZero_04.numberOfSteps(14);
+
+        System.out.println("Resultado: " + result);
+
+    }
+}
 
 /*
         int     resultExercise01;
@@ -60,6 +65,3 @@ public class Main {
     [0, 2, 3], 2.0 -> false
     [0, 2, 4], 2.0 -> true
      */
-
-    }
-}

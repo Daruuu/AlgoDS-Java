@@ -13,7 +13,7 @@ class RunningSumOfOneDArray01Test {
         int []  expectedOutput = {1,3,6,10};
 
         //  when
-        int[]   result = RunningSumOfOneDArray_01.runningSum(numsInput);
+        int[]   result = RunningSumOfOneDArray01.runningSum(numsInput);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -26,7 +26,7 @@ class RunningSumOfOneDArray01Test {
         int []  expectedOutput = new int[] {};
 
         //  when
-        int[]   result = RunningSumOfOneDArray_01.runningSum(numsInput);
+        int[]   result = RunningSumOfOneDArray01.runningSum(numsInput);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -36,28 +36,28 @@ class RunningSumOfOneDArray01Test {
     void shouldReturnSameArray_whenArrayHasOneElement() {
         int[] numsInput = {5};
         int[] expectedOutput = {5};
-        assertArrayEquals(expectedOutput, RunningSumOfOneDArray_01.runningSum(numsInput));
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray01.runningSum(numsInput));
     }
 
     @Test
     void shouldReturnZeros_whenAllElementsAreZero() {
         int[] numsInput = {0, 0, 0, 0};
         int[] expectedOutput = {0, 0, 0, 0};
-        assertArrayEquals(expectedOutput, RunningSumOfOneDArray_01.runningSum(numsInput));
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray01.runningSum(numsInput));
     }
 
     @Test
     void shouldReturnCorrectRunningSum_whenArrayContainsNegativeNumbers() {
         int[] numsInput = {-1, 2, -3, 4};
         int[] expectedOutput = {-1, 1, -2, 2};
-        assertArrayEquals(expectedOutput, RunningSumOfOneDArray_01.runningSum(numsInput));
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray01.runningSum(numsInput));
     }
 
     @Test
     void shouldReturnEmptyArray_whenInputIsEmpty() {
         int[] numsInput = {};
         int[] expectedOutput = {};
-        assertArrayEquals(expectedOutput, RunningSumOfOneDArray_01.runningSum(numsInput));
+        assertArrayEquals(expectedOutput, RunningSumOfOneDArray01.runningSum(numsInput));
     }
 
 

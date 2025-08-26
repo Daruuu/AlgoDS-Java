@@ -16,7 +16,7 @@ class RichestCustomerWealth02Test {
         int expectedOutput = 6;
 
         //  when
-        int result = RichestCustomerWealth_02.maximumWealth(accountsInput);
+        int result = RichestCustomerWealth02.maximumWealth(accountsInput);
 
         //  then
         assertEquals(expectedOutput ,result);
@@ -28,7 +28,7 @@ class RichestCustomerWealth02Test {
                 {10, 20, 30}
         };
         int expected = 60;
-        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth02.maximumWealth(accounts));
     }
 
     @Test
@@ -38,7 +38,7 @@ class RichestCustomerWealth02Test {
                 {1, 1}
         };
         int expected = 99;
-        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth02.maximumWealth(accounts));
     }
 
     @Test
@@ -48,7 +48,7 @@ class RichestCustomerWealth02Test {
                 {0, 0}
         };
         int expected = 0;
-        assertEquals(expected, RichestCustomerWealth_02.maximumWealth(accounts));
+        assertEquals(expected, RichestCustomerWealth02.maximumWealth(accounts));
     }
 
 }

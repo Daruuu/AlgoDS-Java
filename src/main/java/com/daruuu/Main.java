@@ -1,6 +1,6 @@
 package com.daruuu;
 
-import com.daruuu.LeetCode.beginnerchallengeproblems.NumberOfStepsToReduceANumberToZero_04;
+import com.daruuu.LeetCode.beginnerchallengeproblems.NumberOfStepsToReduceANumberToZero04;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -9,7 +9,7 @@ public class Main {
 
 //        NumberOfStepsToReduceANumberToZero_04 test = new NumberOfStepsToReduceANumberToZero_04();
 
-        int result = NumberOfStepsToReduceANumberToZero_04.numberOfSteps(14);
+        int result = NumberOfStepsToReduceANumberToZero04.numberOfSteps(14);
 
         System.out.println("Resultado: " + result);
 

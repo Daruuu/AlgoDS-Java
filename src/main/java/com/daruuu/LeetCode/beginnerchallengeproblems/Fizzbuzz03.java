@@ -3,7 +3,7 @@ package com.daruuu.LeetCode.beginnerchallengeproblems;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Fizzbuzz_03 {
+public class Fizzbuzz03 {
     /*
     412. Fizz Buzz
     Given an integer n, return a string array answer (1-indexed) where:

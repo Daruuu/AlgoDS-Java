@@ -16,7 +16,7 @@ class Fizzbuzz03Test {
         List<String> expectedOutput = List.of("1","2","Fizz");
 
         //  when
-        List<String>    resultList= Fizzbuzz_03.fizzBuzz(nInput);
+        List<String>    resultList= Fizzbuzz03.fizzBuzz(nInput);
 
         //  then
         assertEquals(expectedOutput, resultList);
@@ -26,7 +26,7 @@ class Fizzbuzz03Test {
     void    shouldReturnCorrectList_whenNIs5() {
         int n = 5;
         List<String> expected = List.of("1", "2", "Fizz", "4", "Buzz");
-        assertEquals(expected, Fizzbuzz_03.fizzBuzz(n));
+        assertEquals(expected, Fizzbuzz03.fizzBuzz(n));
     }
 
     @Test
@@ -36,7 +36,7 @@ class Fizzbuzz03Test {
                 "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
                 "11", "Fizz", "13", "14", "FizzBuzz"
         );
-        assertEquals(expected, Fizzbuzz_03.fizzBuzz(n));
+        assertEquals(expected, Fizzbuzz03.fizzBuzz(n));
     }
 
 

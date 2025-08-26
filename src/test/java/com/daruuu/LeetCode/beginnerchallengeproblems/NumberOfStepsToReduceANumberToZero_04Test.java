@@ -13,7 +13,7 @@ class NumberOfStepsToReduceANumberToZero_04Test {
         int expextResult = 6;
 
         //  when
-        int result = NumberOfStepsToReduceANumberToZero_04.numberOfSteps(num);
+        int result = NumberOfStepsToReduceANumberToZero04.numberOfSteps(num);
 
         //  then
         assertEquals(expextResult, result);

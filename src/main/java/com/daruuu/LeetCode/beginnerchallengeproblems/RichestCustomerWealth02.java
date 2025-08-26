@@ -1,6 +1,6 @@
 package com.daruuu.LeetCode.beginnerchallengeproblems;
 
-public class RichestCustomerWealth_02 {
+public class RichestCustomerWealth02 {
     /*
     https://leetcode.com/problems/richest-customer-wealth/description/
     1672. Richest Customer Wealth

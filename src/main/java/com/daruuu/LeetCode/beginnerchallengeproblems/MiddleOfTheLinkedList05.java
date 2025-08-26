@@ -2,7 +2,7 @@ package com.daruuu.LeetCode.beginnerchallengeproblems;
 
 import com.daruuu.LeetCode.ListNode;
 
-public class MiddleOfTheLinkedList {
+public class MiddleOfTheLinkedList05 {
     /*
     https://leetcode.com/problems/middle-of-the-linked-list/description/
     876. Middle of the Linked List

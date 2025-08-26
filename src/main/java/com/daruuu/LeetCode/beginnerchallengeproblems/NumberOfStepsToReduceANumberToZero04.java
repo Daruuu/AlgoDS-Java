@@ -1,6 +1,6 @@
 package com.daruuu.LeetCode.beginnerchallengeproblems;
 
-public class NumberOfStepsToReduceANumberToZero_04 {
+public class NumberOfStepsToReduceANumberToZero04 {
     /*
     https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
     Given an integer num, return the number of steps to reduce it to zero.

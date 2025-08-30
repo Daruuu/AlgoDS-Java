@@ -1,10 +1,10 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NumberOfStepsToReduceANumberToZero_04Test {
+class NumberOfStepsToReduceANumberToZero04Test {
 
     @Test
     void numberOfSteps() {

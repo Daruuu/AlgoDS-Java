@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 public class RunningSumOfOneDArray01 {
     /*
@@ -33,12 +33,11 @@ public class RunningSumOfOneDArray01 {
      * because we declare a new array RESULT of size N to store the running of
      * SUM and access the previous value to calculate the next value.
      */
-    public static int []    runningSum(int [] nums)
-    {
+    public static int[] runningSum(int[] nums) {
         if (nums == null || nums.length == 0)
             return (new int[0]);
 
-        int []  result = new int[nums.length];
+        int[] result = new int[nums.length];
         result[0] = nums[0];
 
         for (int i = 1; i < nums.length; i++) {
@@ -47,18 +46,23 @@ public class RunningSumOfOneDArray01 {
         return (result);
     }
 
-    public static int[] runningSumV1(int[] nums) {
+    //  3 4 6 16 17
+
+    /**
+     * time complexity : O(n)
+     * space complexity: O(1) (in-place, sin memoria adicional proporcional a n).
+     *
+     * @param nums
+     * @return nums
+     */
+    public static int[] runningSumWithOverrideArray(int[] nums) {
         if (nums == null || nums.length == 0)
-            return new int[0];
+            return (new int[0]);
 
-        int[] result = new int[nums.length];
-        int sum = 0;
-
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-            result[i] = sum;
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] = nums[i - 1] + nums[i];
         }
-        return result;
+        return (nums);
     }
 
 }

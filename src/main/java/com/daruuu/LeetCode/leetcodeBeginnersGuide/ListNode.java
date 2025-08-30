@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 public class ListNode {
 

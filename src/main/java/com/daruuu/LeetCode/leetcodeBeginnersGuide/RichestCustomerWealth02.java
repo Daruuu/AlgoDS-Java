@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 public class RichestCustomerWealth02 {
     /*
@@ -38,22 +38,48 @@ public class RichestCustomerWealth02 {
         1 <= m, n <= 50
         1 <= accounts[i][j] <= 100
      */
-    public static int maximumWealth(int[][] accounts)
-    {
+    public static int maximumWealth(int[][] accounts) {
         if (accounts[0].length == 0)
             return (-1);
 
-        int sumRow;
-        int maximumSum = Integer.MIN_VALUE;
+        int currentCustomerWealth;
+        int maxWealthSoFar = Integer.MIN_VALUE;
         for (int i = 0; i < accounts.length; i++) {
-            sumRow = 0;
+            currentCustomerWealth = 0;
 
             for (int j = 0; j < accounts[i].length; j++) {
-                sumRow += accounts[i][j];
+                currentCustomerWealth += accounts[i][j];
             }
-            if (sumRow > maximumSum)
-                maximumSum = sumRow;
+            if (currentCustomerWealth > maxWealthSoFar)
+                maxWealthSoFar = currentCustomerWealth;
         }
-        return (maximumSum);
+        return (maxWealthSoFar);
+    }
+
+    /**
+     * Time Complexity: O(n * m)
+     * - n = number of customers (rows in the matrix)
+     * - m = number of bank accounts per customer (columns)
+     * We must visit each account once.
+     * <p>
+     * Space Complexity: O(1) is constant
+     * - Only uses a few integer variables regardless of input size.
+     *
+     * @param accounts 2D array where accounts[i][j] is the amount of money
+     *                 customer i has in the j-th bank.
+     * @return the maximum total wealth of any customer
+     */
+    public static int maximumWealthImproved(int[][] accounts) {
+
+        int maxWealthSoFar = Integer.MIN_VALUE;
+        for (int[] customer : accounts) {
+            int currentCustomerWealth = 0;
+
+            for (int bank : customer) {
+                currentCustomerWealth += bank;
+            }
+            maxWealthSoFar = Math.max(maxWealthSoFar, currentCustomerWealth);
+        }
+        return (maxWealthSoFar);
     }
 }

@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 import com.daruuu.LeetCode.ListNode;
 import org.junit.jupiter.api.Test;

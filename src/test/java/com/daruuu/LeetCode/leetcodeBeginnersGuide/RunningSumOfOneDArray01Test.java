@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
 
 import org.junit.jupiter.api.Test;
 
@@ -60,5 +60,16 @@ class RunningSumOfOneDArray01Test {
         assertArrayEquals(expectedOutput, RunningSumOfOneDArray01.runningSum(numsInput));
     }
 
+    @Test
+    void    shouldReturnOverrideArrayWithSumOfEachPositionBeforeIndex_whenArrayExists() {
+        //  given
+        int []  numsInput  = {1,2,3,4};
+        int []  expectedOutput = {1,3,6,10};
 
+        //  when
+        int[]   result = RunningSumOfOneDArray01.runningSumWithOverrideArray(numsInput);
+
+        //  then
+        assertArrayEquals(expectedOutput, result);
+    }
 }

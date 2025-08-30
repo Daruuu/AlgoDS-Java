@@ -1,4 +1,6 @@
-package com.daruuu.LeetCode.beginnerchallengeproblems;
+package com.daruuu.LeetCode.leetcodeBeginnersGuide;
+
+import java.util.HashMap;
 
 public class RansomNote06 {
     /*
@@ -44,6 +46,26 @@ public class RansomNote06 {
         {
             arrayAlphabet[c - 'a']--;
             if (arrayAlphabet[c - 'a'] < 0)
+                return (false);
+        }
+        return (true);
+    }
+
+    public static boolean canConstructWithHashMap(String ransomNote, String magazine)
+    {
+        HashMap<Character, Integer> magazineLetters = new HashMap<>();
+        //  arrays of frequency to letters to a-z
+        for (int i = 0; i < magazine.length(); i++) {
+            char m = magazine.charAt(i);
+
+            int currentCount = magazineLetters.getOrDefault(m, 0);
+            magazineLetters.put(m, currentCount + 1);
+        }
+        for (int i = 0; i < ransomNote.length(); i++) {
+            char r = ransomNote.charAt(i);
+
+            int currentCount = magazineLetters.getOrDefault(r, 0);
+            if (currentCount == 0)
                 return (false);
         }
         return (true);

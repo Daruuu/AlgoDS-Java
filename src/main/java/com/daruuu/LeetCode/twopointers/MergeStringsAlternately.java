@@ -38,7 +38,7 @@ public class MergeStringsAlternately {
 //        Input: word1 = "abc", word2 = "pqr"
 //        Output: "apbqcr"
 
-        if (word1 == null || word1.length() == 0 || word2 == null || word2.length() == 0)
+        if (word1 == null || word1.isEmpty() || word2 == null || word2.isEmpty())
             return ("");
         StringBuilder  result = new StringBuilder();
         int i;

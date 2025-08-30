@@ -1,6 +1,6 @@
 package com.daruuu.LeetCode.greedyalgorithms;
 
-public class LongestPalidrome {
+public class LongestPalindrome {
     /*
     Given a string s which consists of lowercase or uppercase letters,
     return the length of the longest palindrome that can be built with those letters.

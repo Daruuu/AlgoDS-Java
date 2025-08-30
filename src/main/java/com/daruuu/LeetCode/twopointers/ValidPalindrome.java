@@ -30,7 +30,7 @@ public class ValidPalindrome {
 //    lowercase letters and removing all non-alphanumeric characters,
     public static boolean   isPalindrome(String s)
     {
-        if (s == null || s.length() == 0)
+        if (s == null || s.isEmpty())
             return (false);
 
         s = s.toLowerCase();

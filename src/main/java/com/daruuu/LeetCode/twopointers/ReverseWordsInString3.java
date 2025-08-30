@@ -21,7 +21,7 @@ public class ReverseWordsInString3 {
      */
     public static String    reverseWords(String s)
     {
-        if (s == null || s.length() == 0)
+        if (s == null || s.isEmpty())
             return (null);
         StringBuilder  result = new StringBuilder();
         int i;

@@ -11,7 +11,7 @@ class LongestPalidromeTest {
         String  s = "abccccdd";
         int     expectedOutput = 7;
 
-        int result = LongestPalidrome.longestPalindrome(s);
+        int result = LongestPalindrome.longestPalindrome(s);
 
         assertEquals(expectedOutput, result);
 

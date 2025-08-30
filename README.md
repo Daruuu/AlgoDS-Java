@@ -10,104 +10,16 @@ categorized by platform, problem type, and algorithmic technique.
 
 ## 📁 Directory Overview
 
-``` markdown
-├── HackerRank
-│   ├── Algorithms
-│   │   ├── averybigsum02
-│   │   │   ├── AVeryBigSum.java
-│   │   │   └── subject.txt
-│   │   ├── comparetriplets01
-│   │   │   ├── CompareTriplets.java
-│   │   │   └── subject.txt
-│   │   ├── diagonaldifference03
-│   │   │   ├── DiagonalDifference.java
-│   │   │   └── subject.txt
-│   │   └── minimaxsum04
-│   │       ├── MiniMaxSum.java
-│   │       └── subject.txt
-│   └── DataStructures
-│       ├── ReverseArray.java
-│       ├── sampleInput.png
-│       └── subject.png
-├── LeetCode
-│   ├── array
-│   │   ├── BuildArrayFromPermutation.java
-│   │   ├── ConcatenationOfArray.java
-│   │   ├── FindWordsContainingCharacter.java
-│   │   ├── HowManyNumbersAreSmallerThanTheCurrentNumber.java
-│   │   ├── KeyboardRow.java
-│   │   ├── LenghtOfLastWord.java
-│   │   ├── LongestCommonPrefix.java
-│   │   ├── MinimumIndexSumOfTwoLists.java
-│   │   ├── RemoveElement_27.java
-│   │   ├── ShuffleTheArray.java
-│   │   ├── StringMatchingInArray.java
-│   │   └── TwoSum.java
-│   ├── dynamicprogramming
-│   │   ├── ClimbingStairs.java
-│   │   └── FibonacciNumber.java
-│   ├── greedyalgorithms
-│   │   ├── ArrayPartition.java
-│   │   └── LongestPalidrome.java
-│   ├── leetcodeBeginnersGuide
-│   │   ├── Fizzbuzz03.java
-│   │   ├── ListNode.java
-│   │   ├── MiddleOfTheLinkedList05.java
-│   │   ├── NumberOfStepsToReduceANumberToZero04.java
-│   │   ├── RansomNote06.java
-│   │   ├── RichestCustomerWealth02.java
-│   │   ├── RunningSumOfOneDArray01.java
-│   │   └── TimeAndSpaceComplexOfAlgorithms.md
-│   ├── ListNode.java
-│   ├── sorting
-│   │   └── SortColors.java
-│   ├── string
-│   │   └── RomantoInteger.java
-│   ├── StringToInteger.java
-│   └── twopointers
-│       ├── FindFirstPalindromicStringInArray.java
-│       ├── FindIndexOfTheFirstOccurrenceInString.java
-│       ├── MergeStringsAlternately.java
-│       ├── RemoveDuplicatesFromSortedArray.java
-│       ├── ReverPrefixOfWord.java
-│       ├── ReverseString.java
-│       ├── ReverseWordsInString3.java
-│       └── ValidPalindrome.java
-├── Main.java
-├── sortAndSearchAlgorithms
-│   ├── BinarySearch02.java
-│   ├── BubbleSort03.java
-│   ├── InsertionSort04.java
-│   ├── LinearSearch01.java
-│   ├── MergeSort05.java
-│   ├── README.md
-│   └── SelectionSort.java
-├── teorywithexamples
-│   ├── bigOAnotation.md
-│   ├── javaInterviewNotes.md
-│   ├── Person.java
-│   └── typeOfDataStructures.md
-└── typesofcomplexity
-    ├── Exercise01.java
-    ├── Exercise02.java
-    ├── Exercise03.java
-    └── Exercise04.java
-```
-
----
-
 ## 📌 HackerRank Challenges
 
 ### `HackerRank/Algorithms`
 
-[//]: # ([`.java`]&#40;path&#41;)
-
-| Algorithm              | File                                                                                                   | Description                                                |
-|------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| A Very Big Sum 02      | [`AVeryBigSum subject`](src/main/java/com/daruuu/HackerRank/Algorithms/averybigsum02/subject.md)       | Sums large integers that may exceed standard data types.   |
-| Compare Triplets 01    | [`Compare Triplets`](src/main/java/com/daruuu/HackerRank/Algorithms/comparetriplets01/subject.md)      | Compares scores of two players based on multiple criteria. |
-| Diagonal Difference 03 | [`DiagonalDifference`](src/main/java/com/daruuu/HackerRank/Algorithms/diagonaldifference03/subject.md) | Calculates the absolute difference between                 |  the diagonals of a square matrix.
-| Mini-Max Sum           | [`MiniMaxSum`](src/main/java/com/daruuu/HackerRank/Algorithms/minimaxsum04/subject.md)                 | Finds the minimum and maximum sum of 4 out of 5 integers.  |
+| Algorithm                                                                                                                                                                     | Description                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [A Very Big Sum 02](https://github.com/Daruuu/Algorithms_And_Data_Structures/blob/master/src/main/java/com/daruuu/HackerRank/Algorithms/averybigsum02/subject.md)             | Sums large integers that may exceed standard data types.                     |
+| [Compare Triplets 01](https://github.com/Daruuu/Algorithms_And_Data_Structures/blob/master/src/main/java/com/daruuu/HackerRank/Algorithms/comparetriplets01/subject.md)       | Compares scores of two players based on multiple criteria.                   |
+| [Diagonal Difference 03](https://github.com/Daruuu/Algorithms_And_Data_Structures/blob/master/src/main/java/com/daruuu/HackerRank/Algorithms/diagonaldifference03/subject.md) | Calculates the absolute difference between the diagonals of a square matrix. |
+| [Mini-Max Sum 04](https://github.com/Daruuu/Algorithms_And_Data_Structures/blob/master/src/main/java/com/daruuu/HackerRank/Algorithms/minimaxsum04/subject.md)                | Finds the minimum and maximum sum of 4 out of 5 integers.                    |
 
 ### `HackerRank/DataStructures`
 
@@ -175,7 +87,8 @@ categorized by platform, problem type, and algorithmic technique.
 
 ### 🔍 Sorting and Searching Algorithms
 
-### [`sortAndSearchAlgorithms/`](src/main/java/com/daruuu/sortAndSearchAlgorithms/README.md)
+### [
+`sortAndSearchAlgorithms/`](src/main/java/com/daruuu/sortAndSearchAlgorithms/README.md)
 
 | Algorithm      | File                                                                                            | Description                                                        |
 |----------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|

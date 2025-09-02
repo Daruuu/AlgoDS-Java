@@ -36,12 +36,12 @@ and how to iterate correctly through arrays using `.length`.*
 
 ---
 💻 Solution:
-🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/main/java/com/daruuu/LeetCode/arrays101/maxconsecutiveones/MaxConsecutiveOnes.java)
+🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/main/java/com/daruuu/LeetCode/arrays101/maxconsecutivesones/MaxConsecutiveOnes.java)
 
 🧪 Tests
 
 💻 Solution:
-🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/test/java/com/daruuu/LeetCode/arrays101/MaxConsecutiveOnesTest.java)
+🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/test/java/com/daruuu/LeetCode/arrays101/MaxConsecutivesOnesTest.java)
 
 Here are example test cases using JUnit 5:
 

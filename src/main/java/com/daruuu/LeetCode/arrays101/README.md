@@ -227,5 +227,5 @@ Output: 2
 
 ---
 💻 Solution:
-🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/main/java/com/daruuu/LeetCode/arrays101/MaxConsecutiveOnes.java)
+🔗 [View Solution](https://github.com/daruuu/AlgoDS-Java/src/main/java/com/daruuu/LeetCode/arrays101/maxconsecutivesones/MaxConsecutiveOnes.java)
 

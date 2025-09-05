@@ -8,13 +8,17 @@ public class SortedSquares {
         for (int i = 0; i < nums.length; i++) {
             squareNumbers[i] = nums[i] * nums[i];
         }
-        int tmp = squareNumbers[0];
-        for (int i = 1; i < squareNumbers.length; i++) {
-            //  5 > 3
-            if (tmp > squareNumbers[i])
-            {
-                squareNumbers[i] = tmp;
-                tmp = squareNumbers[i - 1];
+        //  BUBBLE SORT
+        int tmp;
+        for (int i = 0; i < squareNumbers.length - 1; i++) {
+            for (int j = 0; j < squareNumbers.length - i - 1; j++) {
+                //  5 > 3
+                if (squareNumbers[j] > squareNumbers[j + 1])
+                {
+                    tmp = squareNumbers[j];
+                    squareNumbers[j] = squareNumbers[j + 1];
+                    squareNumbers[j + 1] = tmp;
+                }
             }
         }
         return (squareNumbers);

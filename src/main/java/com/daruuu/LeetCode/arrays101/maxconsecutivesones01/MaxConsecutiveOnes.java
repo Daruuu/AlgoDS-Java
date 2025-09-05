@@ -1,4 +1,4 @@
-package com.daruuu.LeetCode.arrays101.maxconsecutivesones;
+package com.daruuu.LeetCode.arrays101.maxconsecutivesones01;
 
 public class MaxConsecutiveOnes {
 

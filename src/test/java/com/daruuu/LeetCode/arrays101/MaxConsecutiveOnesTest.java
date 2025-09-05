@@ -1,6 +1,6 @@
 package com.daruuu.LeetCode.arrays101;
 
-import com.daruuu.LeetCode.arrays101.maxconsecutivesones.MaxConsecutiveOnes;
+import com.daruuu.LeetCode.arrays101.maxconsecutivesones01.MaxConsecutiveOnes;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

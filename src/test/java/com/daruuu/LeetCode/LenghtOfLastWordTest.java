@@ -1,6 +1,6 @@
 package com.daruuu.LeetCode;
 
-import com.daruuu.LeetCode.array.LenghtOfLastWord;
+import com.daruuu.problems.leetcode.easy.strings.LengthOfLastWord;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,10 +14,9 @@ class LenghtOfLastWordTest {
         int     expectedResult = 5;
 
         //  when
-        int     result = LenghtOfLastWord.lengthOfLastWordInString(s);
+        int     result = LengthOfLastWord.lengthOfLastWordInString(s);
 
         //  then
         assertEquals(expectedResult, result);
-
     }
 }

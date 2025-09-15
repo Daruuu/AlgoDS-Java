@@ -1,6 +1,6 @@
-package com.daruuu.LeetCode.array;
+package com.daruuu.problems.leetcode.easy.strings;
 
-public class LenghtOfLastWord {
+public class LengthOfLastWord {
     /*
     58. Length of Last Word
     Easy

@@ -1,8 +1,8 @@
-package com.daruuu.sortAndSearchAlgorithms;
+package com.daruuu.algorithms.searching;
 
 import java.util.List;
 
-public class LinearSearch01 {
+public class LinearSearch {
     /*
     📘 Problem #1 — Linear Search
     🧠 Title:

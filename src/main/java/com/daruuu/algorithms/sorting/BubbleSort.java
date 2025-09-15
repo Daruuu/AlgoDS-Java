@@ -1,6 +1,6 @@
-package com.daruuu.sortAndSearchAlgorithms;
+package com.daruuu.algorithms.sorting;
 
-public class BubbleSort03 {
+public class BubbleSort {
     /*
     📘 Problem #3 — Bubble Sort
     🧠 Title:

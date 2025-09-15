@@ -1,8 +1,8 @@
-package com.daruuu.sortAndSearchAlgorithms;
+package com.daruuu.algorithms.searching;
 
 import java.util.List;
 
-public class BinarySearch02 {
+public class BinarySearch {
     /*
 ## 📘 Problem #2 — Binary Search
 

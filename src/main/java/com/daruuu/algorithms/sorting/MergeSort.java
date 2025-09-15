@@ -1,8 +1,8 @@
-package com.daruuu.sortAndSearchAlgorithms;
+package com.daruuu.algorithms.sorting;
 
 import java.util.Arrays;
 
-public class MergeSort05 {
+public class MergeSort {
     /*
     Vamos con el siguiente más importante en entrevistas y uno de los más eficientes:
     ---

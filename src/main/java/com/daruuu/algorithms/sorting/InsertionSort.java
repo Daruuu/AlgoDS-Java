@@ -1,6 +1,6 @@
-package com.daruuu.sortAndSearchAlgorithms;
+package com.daruuu.algorithms.sorting;
 
-public class InsertionSort04 {
+public class InsertionSort {
     /*
     ## 📘 Problem #5 — Insertion Sort
 

@@ -23,7 +23,7 @@ Time complexity measures **how many operations** an algorithm performs **relativ
 
 ### Java Examples
 
-### ✅ O(1) - Constant Time
+#### ✅ O(1) - Constant Time
 
 ```java
 int getFirst(int[] array) {
@@ -31,7 +31,7 @@ int getFirst(int[] array) {
 }
 ```
 
-### ✅ O(n) - Linear Time
+#### ✅ O(n) - Linear Time
 
 ```java
 int sum(int[] array) {
@@ -43,7 +43,7 @@ int sum(int[] array) {
 }
 ```
 
-### ✅ O(n^2) - Quadratic Time
+#### ✅ O(n^2) - Quadratic Time
 
 ```java
 void printAllPairs(int[] array) {
@@ -68,7 +68,7 @@ Space complexity measures **how much additional memory** is needed by the algori
 
 ### Java Examples
 
-### ✅ O(1) Space
+#### ✅ O(1) Space
 
 ```java
 int findMax(int[] array) {
@@ -80,7 +80,7 @@ int findMax(int[] array) {
 }
 ```
 
-### ✅ O(n) Space
+#### ✅ O(n) Space
 
 ```java
 int[] copyArray(int[] array) {
@@ -103,7 +103,7 @@ int[] copyArray(int[] array) {
 
 ---
 
-## 🎯 Real-World Interview Tip
+## 🎯 Real-World Interview Tips
 
 When asked to analyze complexity:
 
@@ -122,4 +122,3 @@ When asked to analyze complexity:
 | Big O            | Expresses both in terms of input growth  |
 
 ---
-

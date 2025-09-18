@@ -66,13 +66,13 @@ mvn exec:java -Dexec.mainClass="com.daruuu.Main"
 
 ## 📊 Big O Notation, Time & Space Complexity
 
-This section contains notes and Java examples on how to analyze **time and space complexity** of algorithms.
+This section contains comprehensive notes and Java examples on how to analyze **time and space complexity** of algorithms.
 
-[__View full Big O Examples__](teorywithexamples/bigOAnotation.md)
+[__View Big O Notation Guide__](docs/theory/big-o-notation.md)
 <br>
-[Java Interview Notes](teorywithexamples/javaInterviewNotes.md)
+[Java Interview Questions](docs/theory/java-interview-questions.md)
 <br>
-[type of Data Structures](teorywithexamples/typeOfDataStructures.md)
+[Data Structures Guide](docs/theory/data-structures-guide.md)
 
 ---
 
@@ -245,6 +245,9 @@ src/main/java/com/daruuu/
 | `algorithms/README.md` | Sorting and searching algorithms guide |
 | `leetcode/README.md` | LeetCode problems documentation |
 | `leetcode/TimeAndSpaceComplexOfAlgorithms.md` | Complexity analysis notes |
+| `theory/big-o-notation.md` | Complete Big O notation guide with examples |
+| `theory/java-interview-questions.md` | Common Java interview questions and answers |
+| `theory/data-structures-guide.md` | Comprehensive data structures guide |
 
 ---
 

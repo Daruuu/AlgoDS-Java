@@ -1,5 +1,6 @@
 package com.daruuu.sortAndSearchAlgorithms;
 
+import com.daruuu.algorithms.sorting.BubbleSort;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -14,7 +15,7 @@ class BubbleSort03Test {
     @ParameterizedTest  //  permite ejecutar el mismo test con múltiples entradas.
     @MethodSource("provideArraysForSorting")
     void shouldSortArrayCorrectly(int[] input, int[] expected) {
-        int[] result = BubbleSort03.sortArrayUsingBubbleSortAlgorithm(input);
+        int[] result = BubbleSort.sortArrayUsingBubbleSortAlgorithm(input);
         assertArrayEquals(expected, result);
     }
 
@@ -38,7 +39,7 @@ class BubbleSort03Test {
         int []  result;
 
         //  when
-        result = BubbleSort03.sortArrayUsingBubbleSortAlgorithm(arrayInput);
+        result = BubbleSort.sortArrayUsingBubbleSortAlgorithm(arrayInput);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -53,7 +54,7 @@ class BubbleSort03Test {
         int []  result;
 
         //  when
-        result = BubbleSort03.sortArrayUsingBubbleSortAlgorithm(arrayInput);
+        result = BubbleSort.sortArrayUsingBubbleSortAlgorithm(arrayInput);
 
         //  then
         assertArrayEquals(expectedOutput, result);
@@ -65,13 +66,13 @@ class BubbleSort03Test {
 
         int[] input = {5, 4, 3, 2, 1};
         int[] expected = {1, 2, 3, 4, 5};
-        assertArrayEquals(expected, BubbleSort03.sortArrayUsingBubbleSortAlgorithm(input));
+        assertArrayEquals(expected, BubbleSort.sortArrayUsingBubbleSortAlgorithm(input));
     }
 
     @Test
     void shouldHandleDuplicateValues() {
         int[] input = {3, 1, 2, 2, 3};
         int[] expected = {1, 2, 2, 3, 3};
-        assertArrayEquals(expected, BubbleSort03.sortArrayUsingBubbleSortAlgorithm(input));
+        assertArrayEquals(expected, BubbleSort.sortArrayUsingBubbleSortAlgorithm(input));
     }
 }

@@ -1,5 +1,6 @@
 package com.daruuu.sortAndSearchAlgorithms;
 
+import com.daruuu.algorithms.searching.BinarySearch;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -24,7 +25,7 @@ class BinarySearch02Test {
         int target = 7;
 
         //  when
-        boolean resultBoolean = BinarySearch02.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
+        boolean resultBoolean = BinarySearch.findTargetInSortedArrayUsingBinarySearch(arrayList, target);
 
         //  then
         assertTrue(resultBoolean, "Is correct.");

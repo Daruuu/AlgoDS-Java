@@ -1,5 +1,6 @@
 package com.daruuu.sortAndSearchAlgorithms;
 
+import com.daruuu.algorithms.searching.LinearSearch;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -19,7 +20,7 @@ class LinearSearch01Test {
         int expectedOutput = 2;
 
         //  when
-        foundFirstOccurrence = LinearSearch01.findFirstOccurrenceInList(arrayInput, targetInput);
+        foundFirstOccurrence = LinearSearch.findFirstOccurrenceInList(arrayInput, targetInput);
 
         //  then
         assertEquals(expectedOutput, foundFirstOccurrence);
@@ -33,7 +34,7 @@ class LinearSearch01Test {
         int expectedOutput = -1;
 
         //  when
-        int result = LinearSearch01.findFirstOccurrenceInList(arrayInput, targetInput);
+        int result = LinearSearch.findFirstOccurrenceInList(arrayInput, targetInput);
 
         //  then
         assertEquals(expectedOutput, result);
@@ -49,7 +50,7 @@ class LinearSearch01Test {
         int expectedOutput = arrayInput.size() - 1;
 
         //  when
-        result = LinearSearch01.findFirstOccurrenceInList(arrayInput, (int) targetInput);
+        result = LinearSearch.findFirstOccurrenceInList(arrayInput, (int) targetInput);
 
         //  then
         assertEquals(expectedOutput, result);
@@ -64,7 +65,7 @@ class LinearSearch01Test {
         int expectedOutput = -1;
 
         //  when
-        int result = LinearSearch01.findFirstOccurrenceInList(arrayInput, targetInput);
+        int result = LinearSearch.findFirstOccurrenceInList(arrayInput, targetInput);
 
         //  then
         assertEquals(expectedOutput, result);
@@ -79,7 +80,7 @@ class LinearSearch01Test {
         int expectedOutput = 0;
 
         //  when
-        int result = LinearSearch01.findFirstOccurrenceInList(arrayInput, targetInput);
+        int result = LinearSearch.findFirstOccurrenceInList(arrayInput, targetInput);
 
         //  then
         assertEquals(expectedOutput, result);

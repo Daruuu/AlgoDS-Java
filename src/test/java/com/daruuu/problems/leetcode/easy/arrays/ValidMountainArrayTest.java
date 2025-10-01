@@ -33,4 +33,18 @@ class ValidMountainArrayTest {
         //  Assert
         assertEquals(expectedOutput, result);
     }
+
+    @Test
+    void should_returnTrue_whenTwoNumbersAreConsecutivesAndThirdIsLessThanSecondNumber() {
+        //  Arrange
+
+        int [] inputArr = {1, 3, 2};
+        boolean expectedOutput = true;
+
+        // Act
+        boolean result = ValidMountainArray.validMountainArray(inputArr);
+
+        //  Assert
+        assertEquals(expectedOutput, result);
+    }
 }

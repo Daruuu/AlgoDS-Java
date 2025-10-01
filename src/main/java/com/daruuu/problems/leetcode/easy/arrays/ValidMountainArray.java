@@ -27,7 +27,7 @@ public class ValidMountainArray {
         0 <= arr[i] <= 104
      */
     public static boolean validMountainArray(int[] arr) {
-        if (arr.length < 4)
+        if (arr.length < 3)
             return false;
         int n = arr.length;
 
@@ -36,10 +36,10 @@ public class ValidMountainArray {
             i++;
 
         //  cant stand begin array and end of array
-        if (i == 0 || i == n -1)
+        if (i == 0 || i == n - 1)
             return false;
         while (i + 1 < n && arr[i] > arr[i + 1])
             i++;
-        return i == n - 1;
+        return (i == n - 1);
     }
 }
